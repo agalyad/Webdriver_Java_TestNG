@@ -9,7 +9,7 @@
 .metadata
 .gradle
 test-output/
-lib/
+lib/*
 build/
 buildlogs/
 bin/
