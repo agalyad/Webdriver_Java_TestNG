@@ -33,6 +33,8 @@ local.properties
 # PDT-specific
 .buildpath
 
+!.gitignore
+
 # sbteclipse plugin 
 .target
 
