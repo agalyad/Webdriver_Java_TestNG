@@ -61,9 +61,9 @@
    
     <target name="sendMail" depends="runTests">
         <zip destfile="${basedir}/testng-xslt/Report.zip" basedir="${basedir}/testng-xslt"/>
-        <mail mailhost="smtp.gmail.com" mailport="465" subject="Notification of TESTNG build" ssl="false" user="agalya22@gmail.com" password="amulu2283">
-            <from address="agalya22@gmail.com"/>
-            <to address="agalya22@gmail.com"/>
+        <mail mailhost="smtp.gmail.com" mailport="465" subject="Notification of TESTNG build" ssl="false" user="test@gmail.com" password="password">
+            <from address="test@gmail.com"/>
+            <to address="test@gmail.com"/>
             <message>The build has finished. A details report of this build is aatched</message>
             <attachments>
                 <fileset dir="testng-xslt">
