@@ -20,6 +20,7 @@ tmp/
 *~.nib
 local.properties
 .loadpath
+!.gitignore
 
 # External tool builders
 .externalToolBuilders/
@@ -33,7 +34,7 @@ local.properties
 # PDT-specific
 .buildpath
 
-! .gitignore
+
 
 # sbteclipse plugin 
 .target
